@@ -1,0 +1,801 @@
+/* Navbar Styling */
+.navbar {
+  background-color: #421c46;
+  color: white;
+  padding: 15px 30px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+/* Navbar Container */
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo Styling */
+.logo img {
+  height: 50px;
+  width: auto;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #00aaff;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background: white;
+  margin: 5px;
+  transition: transform 0.3s;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #421c46;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+.homepics{
+    background-image: url( ../img/giaraffe.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 110vh;
+    margin-bottom: 50px;
+    /* margin-top: -70px; */
+ }
+
+
+
+
+ .aboutintro{
+
+    background-image: url( ../img/Elephant.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+  
+ }
+
+
+ /* Styling the navbar */
+ /* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #421c46;
+   
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    font-family: sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+    width: 100px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+  } */
+  
+  /* Change the link color on hover */
+  /* li a:hover {
+      color: #f0f4e0;
+   
+  } */
+
+    /* FIxed navbar position*/
+  /* ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  } */
+
+  .homedescription h1{
+      text-align: center;
+      font-family: sans-serif;
+      color: #421c46;
+      margin-bottom: 60px;
+  }
+
+  .introcontent{
+    margin-left: 50px;
+    margin-right: 50px;
+      display:flex;
+  }
+  .introparagraph{
+      font-family: sans-serif;
+      padding: 50px;
+      margin-right: 50px;
+      text-align: left;
+      
+  }
+
+
+  .gallery {
+    border: 1px solid #ccc;
+   
+  
+  }
+
+  .gallery h1{
+      text-align: center;
+      color: #421c46;
+  }
+  
+.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  .gallery img {
+      margin: auto;
+    width: 100%;
+    height: auto;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  /* * {
+    box-sizing: border-box;
+  } */
+  
+  .responsive {
+    padding: 0 6px;
+    display: inline-flex;
+    /* float: left; */
+    width: 24.99999%;
+    margin-right: 30px;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .missiondivs{
+      margin-left: 100px;
+  }
+
+  .testcontainer{
+     
+     
+      margin-left: 20%;
+   
+    
+  }
+
+  .testimonials{
+  
+      background-image: url(/home/katerina/Documents/CHARL/tours/src/img/skydive.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+ 
+    
+   
+      /* background-color: #f0f4c9; */
+     
+  }
+
+  .testimonials h1{
+      text-align: center;
+      padding-top: 40px;
+      padding-bottom: 20px;
+      color: #f0f4c9;
+  }
+ 
+  .test1{
+   
+  
+ 
+    background: rgba(0, 0, 0, 0.5);
+    
+    color: white;
+    text-align: center;
+      padding: 20px;
+      margin-bottom: 5%;
+      width: 80%;
+      border: 1px solid #f0f4c9;
+      border-style: dotted;
+      border-radius: 20px;
+      padding-bottom: 20px;
+     
+  }
+
+
+  /* ABOUT SECTION */
+/* About Section Styling */
+.about-section {
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Container to Hold Image & Text */
+.about-container {
+  display: flex;
+  align-items: center;
+  max-width: 1100px;
+  width: 100%;
+  gap: 40px;
+}
+
+/* Image Styling */
+.about-image img {
+  margin-top: 100px;
+  width: 100%;
+  height: 400px;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Text Styling */
+.about-text {
+  flex: 1;
+  text-align: left;
+}
+
+.about-text h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #421c46;
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text h2 {
+    font-size: 2rem;
+  }
+
+  .about-text p {
+    font-size: 1rem;
+  }
+}
+
+/* Explore Button Styling */
+.explore-button {
+  background-color: #075f39; /* Green background */
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover Effect */
+.explore-button:hover {
+  background-color: #421c46;
+  transform: scale(1.05);
+}
+
+/* Active Click Effect */
+.explore-button:active {
+  transform: scale(0.95);
+}
+
+/* Responsive Button */
+@media (max-width: 480px) {
+  .explore-button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
+
+
+/* Choose  Section Styling */
+.why-choose-us {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #d6e989;
+}
+
+/* Title Styling */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #421c46;
+  margin-bottom: 80px;
+}
+
+/* Grid Container */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/* Feature Card */
+.feature-card {
+  background-color: #d6e989;
+  padding: 20px;
+  border-radius: 80px;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Icon Styling */
+.feature-icon {
+  font-size: 40px;
+  color: #075f39;
+  margin-bottom: 15px;
+}
+
+/* Feature Title */
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #421c46;
+  margin-bottom: 10px;
+}
+
+/* Feature Description */
+.feature-description {
+  font-size: 1rem;
+  color: black;
+  line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .features-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .feature-title {
+    font-size: 1.3rem;
+  }
+
+  .feature-description {
+    font-size: 1rem;
+  }
+}
+
+
+
+
+
+
+/* .imagecontainer h1{
+  position: absolute;
+  
+} */
+
+/* .imagecontainer img {
+  margin: auto;
+width: 100%;
+height: auto;
+} */
+
+
+
+  /* CONTACT US SECTION */
+
+
+  /* .contactimage{
+      background-image: url(/home/katerina/Documents/CHARL/tours/src/img/contact.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      background-position: center;
+      width: 100%;
+      height: 80vh;
+  }
+
+  .contactdetails{
+      text-align: center;
+  } */
+
+
+  .contactupper{
+    height: 90vh;
+    background-image: url(../img/con.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .contactupper h1{
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #d6e989;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    background: rgba(47, 70, 61, 0.5); /* Optional: Adds a semi-transparent overlay */
+    padding: 15px 30px;
+    border-radius: 8px;
+  }
+
+.contact-card h2{
+  color: #421c46;
+}
+
+ 
+
+
+  /* Center the contact section */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #075f39;
+  
+}
+
+/* Contact card styling */
+.contact-card {
+  background: #d6e989;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 350px;
+}
+
+/* Contact info styling */
+.contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Icon styling */
+.icon {
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+/* OUR SERVICES */
+
+/* Background Image Section */
+.appointment-section {
+  background: url(../img/serv.jpg) no-repeat center center/cover;
+  height: 60vh; /* Adjust height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+/* Dark Overlay */
+.overlay {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Centralized Text */
+.appointment-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .appointment-text {
+    font-size: 2rem;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .appointment-text {
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+}
+
+
+/* Centering the entire services section */
+.services-container {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: white;
+}
+
+/* Title Styling */
+.services-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #421c46;
+}
+
+/* Responsive Grid Layout */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Service Card Styling */
+.service-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(9, 56, 3, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Centering Icons */
+.service-icon {
+  font-size: 40px;
+  color: #075f39;
+  margin-bottom: 15px;
+}
+
+/* Service Title Styling */
+.service-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #421c46;
+  margin-bottom: 20px;
+}
+
+/* Description Styling */
+.service-description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Appointment Button Styling */
+.appointment-button{
+  background-color: #075f39; /* Green background */
+  color: white;
+  font-size: 1.2rem;
+  width: 320px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  margin-top: 90px;
+  margin-left: 90px;
+}
+
+
+
+
+
+/* Hover Effect */
+.appointment-button:hover {
+  background-color: #421c46;
+  transform: scale(1.05);
+}
+
+/* Active Click Effect */
+.appointment-button:active {
+  transform: scale(0.95);
+}
+
+/* Responsive Button */
+@media (max-width: 480px) {
+  .appointment-button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    width:250px ;
+    align-self: center;
+    justify-content: center;
+  }
+}
+
+/* TRAVEL PACKAGES Section Styling */
+.travel-packages {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f8f9fa;
+}
+
+/* Title Styling */
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #421c46;
+}
+
+/* Grid Container */
+.packages-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Package Card */
+.package-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.package-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Image Styling */
+.package-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Title Styling */
+.package-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* THE FOOTER */
+
+/* Footer Styling */
+.footer {
+  background-color: #421c46;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+/* Footer Content */
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Social Icons */
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: #075f39;
+  transform: scale(1.2);
+}
+
+/* Responsive Styling */
+@media (max-width: 600px) {
+  .footer-content {
+    padding: 10px;
+  }
+  
+  .social-icons a {
+    font-size: 20px;
+  }
+}
