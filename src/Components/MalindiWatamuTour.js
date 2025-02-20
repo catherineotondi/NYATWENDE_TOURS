@@ -18,14 +18,14 @@ const MalindiWatamuTour = () => {
             </tr>
           </thead>
           <tbody>
-            <tr><td>Day 1</td><td>Nairobi → Malindi</td><td>Flight to Malindi, hotel check-in, relax at the beach</td></tr>
-            <tr><td>Day 2</td><td>Mambrui Sand Dunes & Hell’s Kitchen</td><td>Visit Marafa Depression, explore Mambrui Sand Dunes, lunch at Mambrui Beach</td></tr>
-            <tr><td>Day 3</td><td>Watamu Marine Park</td><td>Full-day dhow cruise, snorkeling, BBQ lunch</td></tr>
-            <tr><td>Day 4</td><td>Mida Creek</td><td>Nature walk & canoe ride through mangroves</td></tr>
-            <tr><td>Day 5</td><td>Sardegna Island</td><td>Full-day beach relaxation, diving, snorkeling, seafood BBQ</td></tr>
-            <tr><td>Day 6</td><td>Malindi Market</td><td>Cultural tour, authentic street food, shopping</td></tr>
-            <tr><td>Day 7</td><td>Leisure Day</td><td>Beach & resort relaxation, optional spa treatments</td></tr>
-            <tr><td>Day 8</td><td>Malindi → Nairobi</td><td>Flight back to Nairobi, end of tour</td></tr>
+            <tr><td><b>Day 1</b></td><td>Nairobi → Malindi</td><td>Flight to Malindi, hotel check-in, relax at the beach</td></tr>
+            <tr><td><b>Day 2</b></td><td>Mambrui Sand Dunes & Hell’s Kitchen</td><td>Visit Marafa Depression, explore Mambrui Sand Dunes, lunch at Mambrui Beach</td></tr>
+            <tr><td><b>Day 3</b></td><td>Watamu Marine Park</td><td>Full-day dhow cruise, snorkeling, BBQ lunch</td></tr>
+            <tr><td><b>Day 4</b></td><td>Mida Creek</td><td>Nature walk & canoe ride through mangroves</td></tr>
+            <tr><td><b>Day 5</b></td><td>Sardegna Island</td><td>Full-day beach relaxation, diving, snorkeling, seafood BBQ</td></tr>
+            <tr><td><b>Day 6</b></td><td>Malindi Market</td><td>Cultural tour, authentic street food, shopping</td></tr>
+            <tr><td><b>Day 7</b></td><td>Leisure Day</td><td>Beach & resort relaxation, optional spa treatments</td></tr>
+            <tr><td><b>Day 8</b></td><td>Malindi → Nairobi</td><td>Flight back to Nairobi, end of tour</td></tr>
           </tbody>
         </table>
       </div>

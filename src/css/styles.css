@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
 /* Navbar Styling */
 .navbar {
   background-color: #421c46;
@@ -21,6 +24,7 @@
 .logo img {
   height: 50px;
   width: auto;
+  border-radius: 15px;
 }
 
 /* Navigation Links */
@@ -1091,20 +1095,28 @@
   padding: 50px 20px;
   text-align: center;
   background-color: #f8f9fa;
+ 
 }
 
 .tour-container h2 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin-top: 100px;
   font-size: 2.2rem;
   font-weight: bold;
   margin-bottom: 20px;
-  color: #333;
+  color: #421c46;
 }
 
 .tour-container h3 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 15px;
-  color: #007bff;
+  color: #075f39;
 }
 
 /* Table Styling */
@@ -1120,27 +1132,34 @@
   border-collapse: collapse;
   background: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 /* Table Header */
 .tour-table th {
-  background-color: #007bff;
+  
+  background-color: #075f39;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   color: white;
   padding: 12px;
-  text-align: left;
+  text-align: center;
 }
 
 /* Table Rows */
 .tour-table td {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   padding: 12px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #075f39;
   color: #333;
 }
 
 /* Alternate Row Background */
 .tour-table tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #d6e989;
 }
 
 /* Responsive Design */

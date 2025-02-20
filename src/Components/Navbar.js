@@ -30,7 +30,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../css/styles.css" // Import external CSS
-import logo from "../img/vision.jpeg"; // Replace with your logo path
+import logo from "../img/logo.png"; // Replace with your logo path
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -40,7 +40,7 @@ const Navbar = () => {
       <div className="nav-container">
         {/* Logo */}
         <Link to="/" className="logo">
-          <img src={logo} alt="Company Logo" />
+          <img src={logo} alt="Nyatwende Logo" />
         </Link>
 
         {/* Desktop Menu */}
