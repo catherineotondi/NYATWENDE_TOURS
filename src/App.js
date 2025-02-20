@@ -7,6 +7,12 @@ import './App.css';
 import Navbar from './Components/Navbar';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Amboseli from './Components/Amboseli';
+import KenyaSafaris from './Components/KenyaSafaris';
+import KilimanjaroSafari from './Components/KilimanjaroSafari';
+import NairobiParkTrip from './Components/NairobiParkTrip';
+import MasaiMaraSafari from './Components/MasaiMaraSafari';
+import MalindiWatamuTour from './Components/MalindiWatamuTour';
 
 
 
@@ -19,7 +25,13 @@ const App = () => {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/amboseli" element={<Amboseli />} />
+          <Route path="/safari-highlights" element={<KenyaSafaris />} />
+          <Route path="/kilimanjaro" element={<KilimanjaroSafari />} />
+          <Route path="/nairobi-park" element={<NairobiParkTrip />} />
+          <Route path="/wildebeest-migration" element={<MasaiMaraSafari />} />
+          <Route path="/malindi-watamu" element={<MalindiWatamuTour />} />
         <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>

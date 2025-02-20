@@ -100,7 +100,7 @@
 
 import React from "react";
 import { FaHotel, FaPlane, FaUmbrellaBeach, FaMap, FaPaw, FaFileAlt, FaSuitcase, FaPassport, FaTicketAlt, FaUsers } from "react-icons/fa";
-import "../css/styles.css"// Import external CSS file
+import "../css/styles.css";// Import external CSS file
 import Travelpackages from "./Travelpackages";
 import { Link } from 'react-router-dom';
 
