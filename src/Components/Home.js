@@ -249,7 +249,7 @@ const Home = () => {
           <div className="homeabout-image">
             <img src={abouttImage} alt="About Nyatwende" />
           </div>
-          <div className="about-text">
+          <div className="homeabout-text">
             <h2>Nyatwende Travel and Tours Company</h2>
             <p>
               Nyatwende Travel and Tours is your trusted partner in delivering unforgettable travel 

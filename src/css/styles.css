@@ -124,7 +124,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.about-text {
+.homeabout-text {
   flex: 1;
   text-align: left;
   font-family: "Lora", serif;
@@ -132,7 +132,7 @@
   font-style: normal;
 }
 
-.about-text h2 {
+.homeabout-text h2 {
   font-family: "Lora", serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -142,7 +142,7 @@
   margin-bottom: 15px;
 }
 
-.about-text p {
+.homeabout-text p {
   font-family: "Lora", serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -192,6 +192,7 @@ color: #421c46;
 }
 
 .testimonials-section h2 {
+  color: #421c46;
   font-size: 2.5rem;
   margin-bottom: 20px;
 }
@@ -211,7 +212,7 @@ color: #421c46;
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .about-container,
+  .homeabout-container,
   .values-container {
     flex-direction: column;
     text-align: center;
