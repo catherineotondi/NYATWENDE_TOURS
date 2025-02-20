@@ -168,8 +168,8 @@ const Contact = () => {
           <div className="contact-info">
             <span className="icon">⏰</span>
             <p><strong><span className="contact-id">Business Hours:</span></strong></p>
-            <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
-            <p>Saturday & Sunday: 10:00 AM - 5:00 PM</p>
+            <p><span className="contactgap1">Monday - Friday: 9:00 AM - 6:00 PM</span></p>
+            {/* <p><span className="contactgap2">Saturday & Sunday: 10:00 AM - 5:00 PM</span></p> */}
           </div>
         </div>
       </div>

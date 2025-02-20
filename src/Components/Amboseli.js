@@ -41,11 +41,11 @@ const Amboseli = () => {
               <td>4WD Safari Landcruiser/Van (Private)</td>
             </tr>
             <tr>
-              <td>Included</td>
+              <td><b>Included</b></td>
               <td>Park Fees, Accommodation, Meals, Game Drives, Bottled Water</td>
             </tr>
             <tr>
-              <td>Excluded</td>
+              <td><b>Excluded</b></td>
               <td>Tips, Gratuities, Masai Village Visit (USD 20), Balloon Safari (USD 500)</td>
             </tr>
           </tbody>

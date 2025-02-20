@@ -18,22 +18,22 @@ const KilimanjaroSafari = () => {
             </tr>
           </thead>
           <tbody>
-            <tr><td>Day 1</td><td>Nairobi</td><td>Arrival, hotel transfer, rest & acclimatization</td></tr>
-            <tr><td>Day 2</td><td>Amboseli</td><td>Game drive, check-in, afternoon safari</td></tr>
-            <tr><td>Day 3</td><td>Amboseli</td><td>Full-day game drive, views of Mt. Kilimanjaro</td></tr>
-            <tr><td>Day 4</td><td>Tsavo West</td><td>Drive to Tsavo West, afternoon game drive</td></tr>
-            <tr><td>Day 5</td><td>Taita Hills</td><td>Game drive, Salt Lick Lodge experience</td></tr>
-            <tr><td>Day 6</td><td>Diani Beach</td><td>Travel via SGR Train or Flight</td></tr>
-            <tr><td>Day 7-8</td><td>Diani Beach</td><td>Relaxation at Baobab Beach Resort & Spa</td></tr>
-            <tr><td>Day 9</td><td>Nairobi</td><td>Return via Ukunda Airstrip to Nairobi</td></tr>
+            <tr><td><b>Day 1</b></td><td>Nairobi</td><td>Arrival, hotel transfer, rest & acclimatization</td></tr>
+            <tr><td><b>Day 2</b></td><td>Amboseli</td><td>Game drive, check-in, afternoon safari</td></tr>
+            <tr><td><b>Day 3</b></td><td>Amboseli</td><td>Full-day game drive, views of Mt. Kilimanjaro</td></tr>
+            <tr><td><b>Day 4</b></td><td>Tsavo West</td><td>Drive to Tsavo West, afternoon game drive</td></tr>
+            <tr><td><b>Day 5</b></td><td>Taita Hills</td><td>Game drive, Salt Lick Lodge experience</td></tr>
+            <tr><td><b>Day 6</b></td><td>Diani Beach</td><td>Travel via SGR Train or Flight</td></tr>
+            <tr><td><b>Day 7-8</b></td><td>Diani Beach</td><td>Relaxation at Baobab Beach Resort & Spa</td></tr>
+            <tr><td><b>Day 9</b></td><td>Nairobi</td><td>Return via Ukunda Airstrip to Nairobi</td></tr>
           </tbody>
         </table>
       </div>
 
       {/* Safari Package Details */}
-      <div className="table-container">
+      <div className="kilitable-container">
         <h3>Package Details</h3>
-        <table className="safari-table">
+        <table className="kilisafari-table">
           <thead>
             <tr>
               <th>Includes</th>

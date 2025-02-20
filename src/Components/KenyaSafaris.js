@@ -18,14 +18,14 @@ const KenyaSafaris = () => {
             </tr>
           </thead>
           <tbody>
-            <tr><td>Day 1</td><td>Nairobi</td><td>Arrival, hotel transfer, dinner at Carnivore</td></tr>
-            <tr><td>Day 2</td><td>Masai Mara</td><td>Drive from Nairobi, first game drive</td></tr>
-            <tr><td>Day 3</td><td>Masai Mara</td><td>Morning & afternoon game drives, Masai village visit</td></tr>
-            <tr><td>Day 4</td><td>Aberdares</td><td>Thomson’s Falls, lunch, Aberdares game drive</td></tr>
-            <tr><td>Day 5</td><td>Lake Naivasha</td><td>Boat ride, Crescent Island guided walk</td></tr>
-            <tr><td>Day 6</td><td>Amboseli</td><td>Drive via Nairobi, evening game drive</td></tr>
-            <tr><td>Day 7</td><td>Amboseli</td><td>Morning & afternoon game drives</td></tr>
-            <tr><td>Day 8</td><td>Nairobi</td><td>Return to JKIA for departure</td></tr>
+            <tr><td><b>Day 1</b></td><td>Nairobi</td><td>Arrival, hotel transfer, dinner at Carnivore</td></tr>
+            <tr><td><b>Day 2</b></td><td>Masai Mara</td><td>Drive from Nairobi, first game drive</td></tr>
+            <tr><td><b>Day 3</b></td><td>Masai Mara</td><td>Morning & afternoon game drives, Masai village visit</td></tr>
+            <tr><td><b>Day 4</b></td><td>Aberdares</td><td>Thomson’s Falls, lunch, Aberdares game drive</td></tr>
+            <tr><td><b>Day 5</b></td><td>Lake Naivasha</td><td>Boat ride, Crescent Island guided walk</td></tr>
+            <tr><td><b>Day 6</b></td><td>Amboseli</td><td>Drive via Nairobi, evening game drive</td></tr>
+            <tr><td><b>Day 7</b></td><td>Amboseli</td><td>Morning & afternoon game drives</td></tr>
+            <tr><td><b>Day 8</b></td><td>Nairobi</td><td>Return to JKIA for departure</td></tr>
           </tbody>
         </table>
       </div>

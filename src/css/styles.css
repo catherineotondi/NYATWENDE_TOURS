@@ -487,6 +487,9 @@
 }
 
 .contact-details h2 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   margin-top: 130px;
   font-size: 2.5rem;
   font-weight: bold;
@@ -496,6 +499,9 @@
 
 /* Contact Info */
 .contact-info {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   display: flex;
   align-items: center;
   margin: 10px 0;
@@ -503,7 +509,11 @@
   color: #075f39;
 }
 .contact-id{
-  color: black;
+  color: #421c46;
+}
+
+.contactgap2{
+  color: #421c46;
 }
 
 /* Icons */
@@ -517,6 +527,15 @@
   .contact-container {
     flex-direction: column;
     text-align: center;
+  }
+
+  .contactgap2{
+   
+    font-size: smaller;
+  }
+  .contactgap1{
+   
+    font-size: smaller;
   }
 
   
@@ -718,10 +737,14 @@
 }
 
 .amboseli-container h2 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 20px;
-  color: #333;
+  margin-top: 100px;
+  color: #421c46;
 }
 
 /* Table Styling */
@@ -741,14 +764,20 @@
 
 /* Table Header */
 .amboselisafari-table th {
-  background-color: #007bff;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #075f39;
   color: white;
   padding: 12px;
-  text-align: left;
+  text-align: center;
 }
 
 /* Table Rows */
 .amboselisafari-table td {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   padding: 12px;
   border-bottom: 1px solid #ddd;
   color: #333;
@@ -756,7 +785,7 @@
 
 /* Alternate Row Background */
 .amboselisafari-table tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #d6e989;
 }
 
 /* Responsive Design */
@@ -784,17 +813,24 @@
 }
 
 .kenyasafari-container h2 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   font-size: 2.2rem;
   font-weight: bold;
   margin-bottom: 20px;
-  color: #333;
+  margin-top: 100px;
+  color: #421c46;
 }
 
 .kenyasafari-container h3 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 15px;
-  color: #007bff;
+  color: #075f39;
 }
 
 /* Table Styling */
@@ -815,14 +851,20 @@
 
 /* Table Header */
 .kenyasafari-table th {
-  background-color: #007bff;
+  background-color: #075f39;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   color: white;
   padding: 12px;
-  text-align: left;
+  text-align: center;
 }
 
 /* Table Rows */
 .kenyasafari-table td {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   padding: 12px;
   border-bottom: 1px solid #ddd;
   color: #333;
@@ -830,7 +872,7 @@
 
 /* Alternate Row Background */
 .kenyasafari-table tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #d6e989;
 }
 
 /* Responsive Design */
@@ -863,17 +905,24 @@
 }
 
 .kilisafari-container h2 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   font-size: 2.2rem;
   font-weight: bold;
   margin-bottom: 20px;
-  color: #333;
+  margin-top: 100px;
+  color: #421c46;
 }
 
 .kilisafari-container h3 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 15px;
-  color: #007bff;
+  color: #075f39;
 }
 
 /* Table Styling */
@@ -894,14 +943,20 @@
 
 /* Table Header */
 .kilisafari-table th {
-  background-color: #007bff;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #075f39;
   color: white;
   padding: 12px;
-  text-align: left;
+  text-align: center;
 }
 
 /* Table Rows */
 .kilisafari-table td {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   padding: 12px;
   border-bottom: 1px solid #ddd;
   color: #333;
@@ -909,7 +964,7 @@
 
 /* Alternate Row Background */
 .kilisafari-table tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #d6e989;
 }
 
 /* Responsive Design */
@@ -942,17 +997,24 @@
 }
 
 .Naitrip-container h2 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   font-size: 2.2rem;
   font-weight: bold;
   margin-bottom: 20px;
-  color: #333;
+  margin-top: 100px;
+  color: #421c46;
 }
 
 .Naitrip-container h3 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 15px;
-  color: #007bff;
+  color: #075f39;
 }
 
 /* Table Styling */
@@ -973,14 +1035,20 @@
 
 /* Table Header */
 .Naitrip-table th {
-  background-color: #007bff;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #075f39;
   color: white;
   padding: 12px;
-  text-align: left;
+  text-align: center;
 }
 
 /* Table Rows */
 .Naitrip-table td {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   padding: 12px;
   border-bottom: 1px solid #ddd;
   color: #333;
@@ -988,7 +1056,7 @@
 
 /* Alternate Row Background */
 .Naitrip-table tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #d6e989;
 }
 
 /* Responsive Design */
@@ -1019,17 +1087,24 @@
 }
 
 .masaisafari-container h2 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   font-size: 2.2rem;
   font-weight: bold;
   margin-bottom: 20px;
-  color: #333;
+  margin-top: 100px;
+  color: #421c46;
 }
 
 .masaisafari-container h3 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 15px;
-  color: #007bff;
+  color: #075f39;
 }
 
 /* Table Styling */
@@ -1050,14 +1125,20 @@
 
 /* Table Header */
 .masaisafari-table th {
-  background-color: #007bff;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #075f39;
   color: white;
   padding: 12px;
-  text-align: left;
+  text-align: center;
 }
 
 /* Table Rows */
 .masaisafari-table td {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   padding: 12px;
   border-bottom: 1px solid #ddd;
   color: #333;
@@ -1065,7 +1146,7 @@
 
 /* Alternate Row Background */
 .masaisafari-table tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #d6e989;
 }
 
 /* Responsive Design */
