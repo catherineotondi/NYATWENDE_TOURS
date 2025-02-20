@@ -58,7 +58,7 @@
 
 
 import React from "react";
-import "../css/styles.css" // Import external CSS
+import "../css/styles.css"; // Import external CSS
 import aboutImage from "../img/maasai.jpeg"; // Replace with your image
 import { Link } from 'react-router-dom';
 import ChooseUs from "./ChooseUs";

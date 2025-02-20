@@ -84,45 +84,96 @@
 // export default Contact;
 
 
+// import React from "react";
+
+// const Contact = () => {
+//   return (
+//     <div>
+//       <section className="contactupper">
+       
+//        <h1>Ready to Travel, Lets Chat</h1>
+
+//       </section>
+      
+//       <div className="contact-container">
+//       <div className="contact-card">
+//         <h2>Contact Us</h2>
+
+//         {/* Address */}
+//         <div className="contact-info">
+//           <span className="icon">📍</span>
+//           <p><strong>Address:</strong> Nairobi, Kenya</p>
+//         </div>
+
+//         {/* Email */}
+//         <div className="contact-info">
+//           <span className="icon">✉️</span>
+//           <p><strong>Email:</strong> info@nyatwende.com</p>
+//         </div>
+
+//         {/* Phone */}
+//         <div className="contact-info">
+//           <span className="icon">📞</span>
+//           <p><strong>Phone:</strong> +254 712 345 678</p>
+//         </div>
+//       </div>
+//     </div>
+    
+
+
+//     </div>
+    
+//   );
+// };
+
+// export default Contact;
+
+
 import React from "react";
+import "../css/styles.css"; // Import external CSS
+import contactImage from "../img/cont-removebg-preview.png"; // Replace with your image
 
 const Contact = () => {
   return (
-    <div>
-      <section className="contactupper">
-       
-       <h1>Ready to Travel, Lets Chat</h1>
-
-      </section>
-      
+    <section className="contact-section">
       <div className="contact-container">
-      <div className="contact-card">
-        <h2>Contact Us</h2>
-
-        {/* Address */}
-        <div className="contact-info">
-          <span className="icon">📍</span>
-          <p><strong>Address:</strong> Nairobi, Kenya</p>
+        {/* Left Side - Image */}
+        <div className="contact-image">
+          <img src={contactImage} alt="Contact Us" />
         </div>
 
-        {/* Email */}
-        <div className="contact-info">
-          <span className="icon">✉️</span>
-          <p><strong>Email:</strong> info@nyatwende.com</p>
-        </div>
+        {/* Right Side - Contact Details */}
+        <div className="contact-details">
+          <h2>Contact Us</h2>
 
-        {/* Phone */}
-        <div className="contact-info">
-          <span className="icon">📞</span>
-          <p><strong>Phone:</strong> +254 712 345 678</p>
+          {/* Address */}
+          <div className="contact-info">
+            <span className="icon">📍</span>
+            <p><strong><span className="contact-id">Address:</span></strong> Nairobi, Kenya</p>
+          </div>
+
+          {/* Email */}
+          <div className="contact-info">
+            <span className="icon">✉️</span>
+            <p><strong><span className="contact-id">Email:</span></strong> info@nyatwende.com</p>
+          </div>
+
+          {/* Phone */}
+          <div className="contact-info">
+            <span className="icon">📞</span>
+            <p><strong><span className="contact-id">Phone:</span></strong> +254 712 345 678</p>
+          </div>
+
+          {/* Business Hours */}
+          <div className="contact-info">
+            <span className="icon">⏰</span>
+            <p><strong><span className="contact-id">Business Hours:</span></strong></p>
+            <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+            <p>Saturday & Sunday: 10:00 AM - 5:00 PM</p>
+          </div>
         </div>
       </div>
-    </div>
-    
-
-
-    </div>
-    
+    </section>
   );
 };
 

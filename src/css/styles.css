@@ -79,6 +79,143 @@
 }
 
 
+/* HOME PAGE STYLING */
+
+/* General Styling */
+.home-container {
+  font-family: Arial, sans-serif;
+}
+
+/* Section 1: Carousel */
+.carousel-section {
+  width: 100%;
+}
+
+.carousel-section img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+/* Section 2: About Us */
+.about-section {
+  background-color: #f8f9fa;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  max-width: 1100px;
+  width: 100%;
+  gap: 40px;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+  flex: 1;
+  text-align: left;
+}
+
+.about-text h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Section 3: Mission, Vision & Values */
+.values-section {
+  background-color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.values-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.value-card {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+.value-icon {
+  width: 50px;
+  margin-bottom: 15px;
+}
+
+/* Section 4: Testimonials */
+.testimonials-section {
+  background-color: #f8f9fa;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.testimonials-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.testimonials-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.testimonial-text {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #555;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-container,
+  .values-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text h2 {
+    font-size: 2rem;
+  }
+
+  .value-card {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonials-section h2 {
+    font-size: 2rem;
+  }
+
+  .testimonial-text {
+    font-size: 1rem;
+  }
+}
 
 
 
@@ -447,150 +584,100 @@
 
 
 
-
-/* .imagecontainer h1{
-  position: absolute;
-  
-} */
-
-/* .imagecontainer img {
-  margin: auto;
-width: 100%;
-height: auto;
-} */
-
-
-
   /* CONTACT US SECTION */
-
-
-  /* .contactimage{
-      background-image: url(/home/katerina/Documents/CHARL/tours/src/img/contact.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-
-      background-position: center;
-      width: 100%;
-      height: 80vh;
-  }
-
-  .contactdetails{
-      text-align: center;
-  } */
-
-
-  .contactupper{
-    height: 90vh;
-    background-image: url(../img/con.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-  }
-  .contactupper h1{
-    font-family: sans-serif;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #d6e989;
-    font-size: 2.5rem;
-    font-weight: bold;
-    text-align: center;
-    background: rgba(47, 70, 61, 0.5); /* Optional: Adds a semi-transparent overlay */
-    padding: 15px 30px;
-    border-radius: 8px;
-  }
-
-.contact-card h2{
-  color: #421c46;
-}
-
- 
-
-
-  /* Center the contact section */
-.contact-container {
+/* Contact Section Styling */
+.contact-section {
+  background-color: #f8f9fa;
+  padding: 50px 20px;
   display: flex;
   justify-content: center;
+}
+
+/* Contact Container */
+.contact-container {
+  display: flex;
   align-items: center;
-  height: 100vh;
-  background-color: #075f39;
-  
+  max-width: 1100px;
+  width: 100%;
+  gap: 60px;
 }
 
-/* Contact card styling */
-.contact-card {
-  background: #d6e989;
-  padding: 30px;
+/* Left Side - Image */
+.contact-image img {
+  margin-top: 150px;
+  margin-bottom: 100px;
+  width: 100%;
+  max-width: 500px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  width: 350px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  background-color: #075f39;
 }
 
-/* Contact info styling */
+/* Right Side - Contact Details */
+.contact-details {
+  margin-bottom: 100px;
+  flex: 1;
+  text-align: left;
+}
+
+.contact-details h2 {
+  margin-top: 130px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #421c46;
+  margin-bottom: 15px;
+}
+
+/* Contact Info */
 .contact-info {
   display: flex;
   align-items: center;
-  justify-content: center;
   margin: 10px 0;
   font-size: 18px;
-  color: #333;
+  color: #075f39;
+}
+.contact-id{
+  color: black;
 }
 
-/* Icon styling */
+/* Icons */
 .icon {
   font-size: 22px;
   margin-right: 10px;
 }
 
-/* OUR SERVICES */
-
-/* Background Image Section */
-.appointment-section {
-  background: url(../img/serv.jpg) no-repeat center center/cover;
-  height: 60vh; /* Adjust height as needed */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  text-align: center;
-}
-
-/* Dark Overlay */
-.overlay {
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Centralized Text */
-.appointment-text {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: white;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
-  padding: 20px;
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
-  .appointment-text {
+  .contact-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  
+
+  .contact-details h2 {
     font-size: 2rem;
-    padding: 15px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .contact-info {
+    justify-content: center;
   }
 }
 
-@media (max-width: 480px) {
-  .appointment-text {
-    font-size: 1.5rem;
-    padding: 10px;
-  }
-}
+
+
+
+
+
+
+
+/* OUR SERVICES */
+
+
+
+
 
 
 /* Centering the entire services section */
@@ -604,8 +691,9 @@ height: auto;
 .services-title {
   font-size: 2.5rem;
   font-weight: bold;
-  margin-bottom: 30px;
+  margin-top: 150px;
   color: #421c46;
+  text-align: center;
 }
 
 /* Responsive Grid Layout */

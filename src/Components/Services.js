@@ -120,11 +120,7 @@ const services = [
 const Services = () => {
     return (
         <div>
-             <section className="appointment-section">
-      <div className="overlay">
-        <h1 className="appointment-text">Book an appointment with us today</h1>
-      </div>
-    </section>
+        
              <div className="services-container">
       <h2 className="services-title" style={{ marginBottom: "60px" }}>Our Services</h2>
       <div className="services-grid">
