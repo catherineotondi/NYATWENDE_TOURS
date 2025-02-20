@@ -102,14 +102,14 @@
 }
 
 /* Section 2: About Us */
-.about-section {
+.homeabout-section {
   background-color: #f8f9fa;
   padding: 50px 20px;
   display: flex;
   justify-content: center;
 }
 
-.about-container {
+.homeabout-container {
   display: flex;
   align-items: center;
   max-width: 1100px;
@@ -117,7 +117,7 @@
   gap: 40px;
 }
 
-.about-image img {
+.homeabout-image img {
   width: 100%;
   max-width: 500px;
   border-radius: 10px;
@@ -127,9 +127,15 @@
 .about-text {
   flex: 1;
   text-align: left;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .about-text h2 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   font-size: 2.5rem;
   font-weight: bold;
   color: #333;
@@ -137,6 +143,9 @@
 }
 
 .about-text p {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   font-size: 1.1rem;
   color: #555;
   line-height: 1.6;
@@ -147,6 +156,9 @@
   background-color: white;
   padding: 50px 20px;
   text-align: center;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .values-container {
@@ -159,9 +171,12 @@
   background: #f8f9fa;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 8px rgb(16, 63, 16);
   text-align: center;
   width: 300px;
+}
+.value-card h3{
+color: #421c46;
 }
 
 .value-icon {
@@ -303,18 +318,48 @@
 
 /* Text Styling */
 .about-text {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   flex: 1;
   text-align: left;
 }
 
 .about-text h2 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   font-size: 2.5rem;
   font-weight: bold;
   color: #421c46;
   margin-bottom: 15px;
 }
 
+.read-button {
+  background-color: #075f39; /* Green background */
+  color: white;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover Effect */
+.read-button:hover {
+  background-color: #421c46;
+  transform: scale(1.05);
+}
+
 .about-text p {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   font-size: 1.1rem;
   color: #555;
   line-height: 1.6;
@@ -371,6 +416,9 @@
 
 /* Choose  Section Styling */
 .why-choose-us {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   text-align: center;
   padding: 50px 20px;
   background-color: #d6e989;
@@ -378,6 +426,9 @@
 
 /* Title Styling */
 .section-title {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 30px;
@@ -574,9 +625,12 @@
 
 /* Title Styling */
 .services-title {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   font-size: 2.5rem;
   font-weight: bold;
-  margin-top: 150px;
+  margin-top: 80px;
   color: #421c46;
   text-align: center;
 }
@@ -612,6 +666,9 @@
 
 /* Service Title Styling */
 .service-title {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   font-size: 1.5rem;
   font-weight: bold;
   color: #421c46;
@@ -620,6 +677,9 @@
 
 /* Description Styling */
 .service-description {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   font-size: 1rem;
   color: #555;
   line-height: 1.5;
@@ -627,6 +687,9 @@
 
 /* Appointment Button Styling */
 .appointment-button{
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   background-color: #075f39; /* Green background */
   color: white;
   font-size: 1.2rem;
@@ -676,6 +739,9 @@
 
 /* Title Styling */
 .title {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 30px;
@@ -718,6 +784,9 @@
 
 /* Title Styling */
 .package-title {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   font-size: 1.3rem;
   font-weight: bold;
   color: #333;

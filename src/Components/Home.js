@@ -208,7 +208,7 @@
 
 
 import React from "react";
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Carousel styles
 import "../css/styles.css"; // External CSS
@@ -244,9 +244,9 @@ const Home = () => {
       </section>
 
       {/* Section 2: About Us */}
-      <section className="about-section">
-        <div className="about-container">
-          <div className="about-image">
+      <section className="homeabout-section">
+        <div className="homeabout-container">
+          <div className="homeabout-image">
             <img src={abouttImage} alt="About Nyatwende" />
           </div>
           <div className="about-text">
@@ -256,12 +256,14 @@ const Home = () => {
               experiences. We specialize in curated tours, personalized travel packages, and seamless 
               travel solutions, ensuring every journey is inspiring, adventurous, and stress-free.
             </p>
+            <Link to={`/about`}>
+                      <button className="read-button">Read more</button>
+                  </Link>
           </div>
-          
+         
         </div>
-        {/* <Link to={`/contact`}>
-                      <button className="appointment-button">BOOK AN APPOINTMENT TODAY</button>
-                  </Link> */}
+      
+       
       </section>
 
       {/* Section 3: Mission, Vision & Values */}
