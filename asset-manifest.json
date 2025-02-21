@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/catherineotondi/NYATWENDE_TOURS/static/css/main.2e1be204.css",
-    "main.js": "/catherineotondi/NYATWENDE_TOURS/static/js/main.7d505965.js",
+    "main.js": "/catherineotondi/NYATWENDE_TOURS/static/js/main.2c1bc5ed.js",
     "static/js/156.687167fa.chunk.js": "/catherineotondi/NYATWENDE_TOURS/static/js/156.687167fa.chunk.js",
     "static/media/TRAVE.jpg": "/catherineotondi/NYATWENDE_TOURS/static/media/TRAVE.2926272eb22cfb5df77b.jpg",
     "static/media/lewis-j-goetz-p3zbb3Efczw-unsplash.jpg": "/catherineotondi/NYATWENDE_TOURS/static/media/lewis-j-goetz-p3zbb3Efczw-unsplash.c0684ca2df9114a7fe2d.jpg",
@@ -23,11 +23,11 @@
     "static/media/vision.jpeg": "/catherineotondi/NYATWENDE_TOURS/static/media/vision.299561b046791990a38c.jpeg",
     "index.html": "/catherineotondi/NYATWENDE_TOURS/index.html",
     "main.2e1be204.css.map": "/catherineotondi/NYATWENDE_TOURS/static/css/main.2e1be204.css.map",
-    "main.7d505965.js.map": "/catherineotondi/NYATWENDE_TOURS/static/js/main.7d505965.js.map",
+    "main.2c1bc5ed.js.map": "/catherineotondi/NYATWENDE_TOURS/static/js/main.2c1bc5ed.js.map",
     "156.687167fa.chunk.js.map": "/catherineotondi/NYATWENDE_TOURS/static/js/156.687167fa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2e1be204.css",
-    "static/js/main.7d505965.js"
+    "static/js/main.2c1bc5ed.js"
   ]
 }
