@@ -5,13 +5,13 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Carousel styles
 import "../css/styles.css"; // External CSS
 
-import abouttImage from "../img/TRAV.jpg"; // Replace with actual images
+import abouttImage from "../img/Electric Safari in Kenya.jpeg"; // Replace with actual images
 import missionIcon from "../img/mission.png";
 import visionIcon from "../img/vision.jpeg";
 import valuesIcon from "../img/value.jpeg";
 import carousel1 from "../img/TRAA.jpg";
 import carousel2 from "../img/giaraffe.jpg";
-import carousel3 from "../img/ROAD.jpg";
+import carousel3 from "../img/lewis-j-goetz-p3zbb3Efczw-unsplash.jpg";
 import carousel4 from "../img/TRAVE.jpg";
 import carousel5 from "../img/TRAVEL.jpg";
 
