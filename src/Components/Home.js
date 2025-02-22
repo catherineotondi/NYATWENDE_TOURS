@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Carousel styles
 import "../css/styles.css"; // External CSS
+import { FaUserCircle } from "react-icons/fa";
 
 import abouttImage from "../img/Electric Safari in Kenya.jpeg"; // Replace with actual images
 import missionIcon from "../img/mission.png";
@@ -16,9 +17,18 @@ import carousel4 from "../img/TRAVE.jpg";
 import carousel5 from "../img/TRAVEL.jpg";
 
 const testimonials = [
-  "Nyatwende Travel and Tours provided an amazing safari experience! The team was professional and made sure everything was seamless.",
-  "Our family vacation was perfectly planned, and we had a stress-free experience thanks to Nyatwende Travel.",
-  "I highly recommend Nyatwende Travel for international trips. They made visa processing and bookings so easy!",
+  { 
+    name: "Sammy Smith", 
+    text: "Nyatwende Travel and Tours provided an amazing safari experience! The team was professional and made sure everything was seamless." 
+  },
+  { 
+    name: "Sarah Wanjiru", 
+    text: "Our family vacation was perfectly planned, and we had a stress-free experience thanks to Nyatwende Travel." 
+  },
+  { 
+    name: "Donald Okafor", 
+    text: "I highly recommend Nyatwende Travel for international trips. They made visa processing and bookings so easy!" 
+  }
 ];
 
 const Home = () => {
@@ -57,6 +67,8 @@ At <b>Nyatwende Africa Tours and Travel,</b> we believe that every traveler dese
       
        
       </section>
+
+          {/* Section 3: Mission, Vision & Values */}
 
       <section className="values-section">
       <div className="values-container">
@@ -108,62 +120,33 @@ At <b>Nyatwende Africa Tours and Travel,</b> we believe that every traveler dese
       </div>
     </section>
 
-      {/* Section 3: Mission, Vision & Values */}
-      {/* <section className="values-section">
-        <div className="values-container">
-          <div className="value-card">
-            <img src={missionIcon} alt="Mission" className="value-icon" />
-            <h3>Our Mission</h3>
-            <p>To provide exceptional travel experiences that create lasting memories.</p>
-          </div>
-          <div className="value-card">
-            <img src={visionIcon} alt="Vision" className="value-icon" />
-            <h3>Our Vision</h3>
-            <p>To become Africa’s premier travel agency, renowned for offering high-quality,
-tailor-made tours and safaris that immerse travelers in the true essence of the
-continent.</p>
-          </div>
-          <div className="lastvalue-card">
-            <img src={valuesIcon} alt="Values" className="value-icon" />
-            <h3>Our Core Values</h3>
-            
-            <b>Pioneer Service</b><br></br>
-We<span>LIVE exceptional service by offering unparalleled speed, meticulous attention to detail, and a
-focus on quality. Our guest-centered approach ensures that every interaction is infused with warmth
-and care, reflecting our commitment to delivering the best experiences, every time.<br></br>
-            
-
-  <b>Business of Human Focus</b><br></br>
-            At Nyatwende Africa Tours and Travel,
-            we value people and their well-being above all else. We
-take great pride in caring for our guests, employees, local partners, and the communities that
-welcome travelers. Our mission is to create positive, lasting impacts, ensuring that everyone
-involved benefits from the travel experience.
-            
-            <br></br>
-<b>Wow Experiences</b><br></br>
-We are local experts and on-the-ground specialists who offer more than just tours—we create wow
-experiences that immerse our guests in the true spirit of Africa. From breathtaking safaris to
-
-cultural explorations, we provide each traveler with moments that exceed their expectations and
-leave them with lifelong memories.</span> 
-          </div>
-          
-        </div>
-       
-
+  
     
-      </section> */}
 
       {/* Section 4: Testimonials */}
+
       <section className="testimonials-section">
+      <h2>What Our Clients Say</h2>
+      <div className="testimonials-container">
+        {testimonials.map((testimonial, index) => (
+          <div key={index} className="testimonial-card">
+            <FaUserCircle className="user-icon" />
+            <div className="testimonial-content">
+              <h4 className="testimonial-name">{testimonial.name}</h4>
+              <p className="testimonial-text">{testimonial.text}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+      {/* <section className="testimonials-section">
         <h2>What Our Clients Say</h2>
         <div className="testimonials-container">
           {testimonials.map((testimonial, index) => (
             <p key={index} className="testimonial-text">{testimonial}</p>
           ))}
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };
