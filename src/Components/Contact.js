@@ -1,50 +1,46 @@
 
 import React from "react";
+import { FaEnvelope, FaMapMarkerAlt, FaPhone, FaClock } from "react-icons/fa"; // Import icons
 import "../css/styles.css"; // Import external CSS
-import contactImage from "../img/cont-removebg-preview.png"; // Replace with your image
+import contactImage from "../img/ser.jpg"; // Import your image
 
 const Contact = () => {
   return (
-    <section className="contact-section">
-      <div className="contact-container">
-        {/* Left Side - Image */}
-        <div className="contact-image">
-          <img src={contactImage} alt="Contact Us" />
+    <div className="contact-container">
+      {/* Top Section with Image */}
+      <div className="contact-image-container">
+        <img src={contactImage} alt="Contact Us" className="contact-image" />
+      </div>
+
+      {/* Contact Details Section */}
+      <div className="contact-details">
+
+
+        <div className="contact-card">
+          <FaMapMarkerAlt className="contact-icon" />
+          <h3>Our Address</h3>
+          <p>Riruta, Nairobi. Kenya</p>
         </div>
 
-        {/* Right Side - Contact Details */}
-        <div className="contact-details">
-          <h2>Contact Us</h2>
+        <div className="contact-card">
+          <FaEnvelope className="contact-icon" />
+          <h3>Email Us</h3>
+          <p>info@nyatwendeafrica.com</p>
+        </div>
 
-          {/* Address */}
-          <div className="contact-info">
-            <span className="icon">📍</span>
-            <p><strong><span className="contact-id">Address:</span></strong> Riruta, Nairobi, Kenya</p>
-          </div>
+        <div className="contact-card">
+          <FaPhone className="contact-icon" />
+          <h3>Call Us</h3>
+          <p>+254 706136146 | +254 798178735</p>
+        </div>
 
-          {/* Email */}
-          <div className="contact-info">
-            <span className="icon">✉️</span>
-            <p><strong><span className="contact-id">Email:</span></strong>info@nyatwendeafrica.com</p>
-          </div>
-
-          {/* Phone */}
-          <div className="contact-info">
-            <span className="icon">📞</span>
-            <p><strong><span className="contact-id">Phone:</span></strong> Phone: +254 706136146 | +254 798178735</p>
-          </div>
-
-          {/* Business Hours */}
-          <div className="contact-info">
-            <span className="icon">⏰</span>
-            <p><strong><span className="contact-id">Business Hours:</span></strong></p>
-            <p><span className="contactgap1">Monday - Friday: 8:00 AM - 6:00 PM</span></p>
-            <p><span className="contactgap2">Saturday : 8:00 AM - 4:00 PM</span></p>
-            <p><span className="contactgap2"> Sunday: closed</span></p>
-          </div>
+        <div className="contact-card">
+          <FaClock className="contact-icon" />
+          <h3>Business Hours</h3>
+          <p><b>Mon-Fri:</b> 9:00 AM - 6:00 PM<br></br><br></br><b>Sat-Sun:</b> 10:00 AM - 5:00 PM<br></br><br></br><b>Sunday: closed</b></p>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
