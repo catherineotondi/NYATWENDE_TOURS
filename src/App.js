@@ -6,19 +6,20 @@ import Contact from './Components/Contact'
 import './App.css';
 import Navbar from './Components/Navbar';
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Amboseli from './Components/Amboseli';
 import KenyaSafaris from './Components/KenyaSafaris';
 import KilimanjaroSafari from './Components/KilimanjaroSafari';
 import NairobiParkTrip from './Components/NairobiParkTrip';
 import MasaiMaraSafari from './Components/MasaiMaraSafari';
 import MalindiWatamuTour from './Components/MalindiWatamuTour';
+import { HashRouter,Route, Routes } from "react-router-dom";
 
 
 
 const App = () => {
   return (
-    <Router>
+    <HashRouter>
+      
       <Navbar />
       
       <Routes>
@@ -36,7 +37,10 @@ const App = () => {
         </Route>
       </Routes>
     
-    </Router>
+    
+  {/* <App /> */}
+</HashRouter>
+    
   );
 };
 
