@@ -159,37 +159,89 @@
 }
 
 /* Section 3: Mission, Vision & Values */
+/* Container for all cards */
 .values-section {
-  background-color: white;
   padding: 50px 20px;
+  background-color: #f8f9fa;
+}
+
+.values-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Card Styling */
+.value-card {
+  width: 300px;
+  height: 250px; /* Ensuring all cards have the same initial height */
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 8px rgb(16, 63, 16);
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Icon Styling */
+.value-icon {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+/* Title Styling */
+.value-card h3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #421c46;
+}
+
+/* Short text always visible */
+.short-text {
+  font-size: 1rem;
+  color:black;
+}
+
+/* Full text is initially hidden */
+.full-text {
+  display: none;
+  color:black;
   text-align: center;
   font-family: "Lora", serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
 
-.values-container {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
+/* Expand Last Card on Hover */
+.lastvalue-card:hover {
+  height: auto;
 }
 
-.value-card {
-  background: #f8f9fa;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 5px 5px 8px rgb(16, 63, 16);
-  text-align: center;
-  width: 300px;
-}
-.value-card h3{
-color: #421c46;
+.lastvalue-card:hover .full-text {
+  display: block;
 }
 
-.value-icon {
-  width: 50px;
-  margin-bottom: 15px;
+.lastvalue-card:hover .short-text {
+  display: none;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .values-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .value-card {
+    width: 90%;
+  }
+}
+
+
 
 /* Section 4: Testimonials */
 .testimonials-section {

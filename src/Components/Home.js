@@ -58,8 +58,58 @@ At <b>Nyatwende Africa Tours and Travel,</b> we believe that every traveler dese
        
       </section>
 
-      {/* Section 3: Mission, Vision & Values */}
       <section className="values-section">
+      <div className="values-container">
+        {/* Mission Card */}
+        <div className="value-card">
+          <img src={missionIcon} alt="Mission" className="value-icon" />
+          <h3>Our Mission</h3>
+          <p>To provide exceptional travel experiences that create lasting memories.</p>
+        </div>
+
+        {/* Vision Card */}
+        <div className="value-card">
+          <img src={visionIcon} alt="Vision" className="value-icon" />
+          <h3>Our Vision</h3>
+          <p>
+            To become Africa’s premier travel agency, renowned for offering high-quality, tailor-made 
+            tours and safaris that immerse travelers in the true essence of the continent.
+          </p>
+        </div>
+
+        {/* Core Values Card (Expandable on Hover) */}
+        <div className="value-card lastvalue-card">
+          <img src={valuesIcon} alt="Values" className="value-icon" />
+          <h3>Our Core Values</h3>
+          
+          <b>Pioneer Service</b><br />
+          <p className="short-text">
+            We LIVE exceptional service by offering unparalleled speed, meticulous attention to detail...
+          </p>
+          <p className="full-text">
+            Our guest-centered approach ensures that every interaction is infused with warmth and care, 
+            reflecting our commitment to delivering the best experiences, every time.
+            <br /><br />
+
+            <b>Business of Human Focus</b><br />
+            At Nyatwende Africa Tours and Travel, we value people and their well-being above all else. 
+            We take great pride in caring for our guests, employees, local partners, and the communities 
+            that welcome travelers. Our mission is to create positive, lasting impacts, ensuring that everyone 
+            involved benefits from the travel experience.
+            <br /><br />
+
+            <b>Wow Experiences</b><br />
+            We are local experts and on-the-ground specialists who offer more than just tours—we create wow 
+            experiences that immerse our guests in the true spirit of Africa. From breathtaking safaris to 
+            cultural explorations, we provide each traveler with moments that exceed their expectations and 
+            leave them with lifelong memories.
+          </p>
+        </div>
+      </div>
+    </section>
+
+      {/* Section 3: Mission, Vision & Values */}
+      {/* <section className="values-section">
         <div className="values-container">
           <div className="value-card">
             <img src={missionIcon} alt="Mission" className="value-icon" />
@@ -73,13 +123,37 @@ At <b>Nyatwende Africa Tours and Travel,</b> we believe that every traveler dese
 tailor-made tours and safaris that immerse travelers in the true essence of the
 continent.</p>
           </div>
-          <div className="value-card">
+          <div className="lastvalue-card">
             <img src={valuesIcon} alt="Values" className="value-icon" />
-            <h3>Our Values</h3>
-            <p>Integrity, customer satisfaction, and sustainable tourism.</p>
+            <h3>Our Core Values</h3>
+            
+            <b>Pioneer Service</b><br></br>
+We<span>LIVE exceptional service by offering unparalleled speed, meticulous attention to detail, and a
+focus on quality. Our guest-centered approach ensures that every interaction is infused with warmth
+and care, reflecting our commitment to delivering the best experiences, every time.<br></br>
+            
+
+  <b>Business of Human Focus</b><br></br>
+            At Nyatwende Africa Tours and Travel,
+            we value people and their well-being above all else. We
+take great pride in caring for our guests, employees, local partners, and the communities that
+welcome travelers. Our mission is to create positive, lasting impacts, ensuring that everyone
+involved benefits from the travel experience.
+            
+            <br></br>
+<b>Wow Experiences</b><br></br>
+We are local experts and on-the-ground specialists who offer more than just tours—we create wow
+experiences that immerse our guests in the true spirit of Africa. From breathtaking safaris to
+
+cultural explorations, we provide each traveler with moments that exceed their expectations and
+leave them with lifelong memories.</span> 
           </div>
+          
         </div>
-      </section>
+       
+
+    
+      </section> */}
 
       {/* Section 4: Testimonials */}
       <section className="testimonials-section">
