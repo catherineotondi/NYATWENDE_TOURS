@@ -31,7 +31,7 @@
 .nav-links {
   display: flex;
   list-style: none;
-  gap: 20px;
+  gap: 5px;
  
 }
 
@@ -233,7 +233,7 @@
 @media (max-width: 768px) {
   .values-container {
     flex-direction: column;
-    align-items: center;
+    align-items: left;
   }
 
   .value-card {
@@ -323,7 +323,6 @@
 
   .user-icon {
     margin-bottom: 10px;
-    
   }
 }
 

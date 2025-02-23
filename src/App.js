@@ -13,6 +13,7 @@ import NairobiParkTrip from './Components/NairobiParkTrip';
 import MasaiMaraSafari from './Components/MasaiMaraSafari';
 import MalindiWatamuTour from './Components/MalindiWatamuTour';
 import { HashRouter,Route, Routes } from "react-router-dom";
+import Travelpackages from './Components/Travelpackages';
 
 
 
@@ -27,6 +28,7 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/tours" element={<Travelpackages />} />
           <Route path="/amboseli" element={<Amboseli />} />
           <Route path="/safari-highlights" element={<KenyaSafaris />} />
           <Route path="/kilimanjaro" element={<KilimanjaroSafari />} />
