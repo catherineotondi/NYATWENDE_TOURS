@@ -12,7 +12,7 @@ import myWatamu from "../img/wildlif.jpeg";
 
 const packages = [
   { img: myAmboseli, title: "Amboseli Safaris", route: "/amboseli" },
-  { img: mySafari, title: "Safari Highlights", route: "/safari-highlights" },
+  { img: mySafari, title: "Kenya Highlights", route: "/safari-highlights" },
   { img: myKilimanjaro, title: "Kilimanjaro Safari", route: "/kilimanjaro" },
   { img: myNational, title: "Nairobi National Park", route: "/nairobi-park" },
   { img: myWild, title: "Wildebeest Migration", route: "/wildebeest-migration" },

@@ -50,7 +50,7 @@ const Navbar = () => {
           <Link to="/services" onClick={closeMenu}>Services</Link>
           </li>
           <li>
-          <Link to="/tours" onClick={closeMenu}>Travel & Tours</Link>
+          <Link to="/tours" onClick={closeMenu}>Tours & Safaris</Link>
         </li>
         <li>
           <Link to="/contact" onClick={closeMenu}>Contact Us</Link>
