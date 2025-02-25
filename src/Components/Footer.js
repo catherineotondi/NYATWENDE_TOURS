@@ -22,13 +22,13 @@ const Footer = () => {
       <div className="footer-content">
         <p>&copy; {new Date().getFullYear()} Nyatwende Travel & Tours. All Rights Reserved.</p>
         <div className="social-icons">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/profile.php?id=61572586970183" target="_blank" rel="noopener noreferrer">
             <FaFacebook className="icon" />
           </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/nyatwende_africatours?igsh=MXBlbTN5bWZscWExeg%3D%3D" target="_blank" rel="noopener noreferrer">
             <FaInstagram className="icon" />
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://x.com/i/flow/login?redirect_after_login=%2FRugi_Njaamunge" target="_blank" rel="noopener noreferrer">
             <FaTwitter className="icon" />
           </a>
           <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
