@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../css/styles.css" // Import external CSS
-import logo from "../img/logo.png"; // Replace with your logo path
+import logo from "../img/NYATWENDE LOGO.png"; // Replace with your logo path
 import { FaBars, FaTimes } from "react-icons/fa"; // Icons for menu
 
 const Navbar = () => {
