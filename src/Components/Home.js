@@ -49,7 +49,7 @@ const Home = () => {
       <section className="homeabout-section">
         <div className="homeabout-container">
           <div className="homeabout-text">
-            <h2>Nyatwende  Africa Tours & Travel Company</h2>
+            <h2>Nyatwende  Africa Tours & Travel Ltd</h2>
             <p>
             With over 5 years of existence, <b>Nyatwende Africa Tours and Travel</b> has quickly become a trusted name in the travel industry, specializing in<b> personalized tours and safaris</b>  across Africa. With over <b>5 years of experience,</b>  we pride ourselves on delivering unique, high-end travel experiences that cater to every traveler’s individual preferences. Our dedicated team takes the time to listen carefully to your needs and desires, ensuring that we create tours tailored specifically to you, filled with unforgettable moments.<br></br><br></br>
 We have had the pleasure of serving hundreds of clients from around the world, curating a wide range of custom journeys through Kenya, Tanzania, Zanzibar, and beyond. Whether you’re looking for a thrilling safari adventure, a cultural exploration, or a relaxing beach getaway, our goal is to make your vacation one that you will cherish and share with loved ones for years to come.<br></br><br></br>
