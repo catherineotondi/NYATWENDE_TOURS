@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "title": "Most Luxurious Safari Lodges in Kenya",
+      "description": "Experience Kenya's wild in luxury—from giraffe breakfasts to Kilimanjaro views...",
+      "image": "../images/oldonyo.jpg",
+      "route": "/blogs/luxury-lodges",
+      "date": "2025-05-15"
+    },
+    {
+      "id": 2,
+      "title": "Kenya’s Unique Travel Experiences",
+      "description": "Dolphin swims, giraffe breakfasts, hot air balloons & the Great Migration await you in Kenya.",
+      "image": "../images/travelexperinces.jpg",
+      "route": "/blogs/unique-experiences",
+      "date": "2025-05-15"
+    }
+   
+
+  
+  ]
+  

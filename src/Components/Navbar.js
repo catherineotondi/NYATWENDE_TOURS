@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "../css/styles.css" // Import external CSS
+import "../css/styles.css"; // Import external CSS
 import logo from "../img/NYATWENDE LOGO.png"; // Replace with your logo path
 import { FaBars, FaTimes } from "react-icons/fa"; // Icons for menu
 
@@ -54,6 +54,9 @@ const Navbar = () => {
         </li>
         <li>
           <Link to="/contact" onClick={closeMenu}>Contact Us</Link>
+          </li>
+          <li>
+          <Link to="/blogs" onClick={closeMenu}>Blogs</Link>
         </li>
       </ul>
      

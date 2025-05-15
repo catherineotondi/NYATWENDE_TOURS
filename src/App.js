@@ -14,6 +14,10 @@ import MasaiMaraSafari from './Components/MasaiMaraSafari';
 import MalindiWatamuTour from './Components/MalindiWatamuTour';
 import { HashRouter,Route, Routes } from "react-router-dom";
 import Travelpackages from './Components/Travelpackages';
+import BlogList from './Components/BlogList';
+import BlogDetail from './Components/BlogDetail';
+import LuxuriousLodges from './Components/LuxuriousLodges';
+import UniqueExperiences from './Components/UniqueExperiences';
 
 
 
@@ -35,6 +39,10 @@ const App = () => {
           <Route path="/nairobi-park" element={<NairobiParkTrip />} />
           <Route path="/wildebeest-migration" element={<MasaiMaraSafari />} />
           <Route path="/malindi-watamu" element={<MalindiWatamuTour />} />
+          <Route path="/blogs" element={<BlogList />} />
+          <Route path="/blog/:id" element={<BlogDetail />} />
+          <Route path="/blogs/luxury-lodges" element={<LuxuriousLodges />} />
+          <Route path="/blogs/unique-experiences" element={<UniqueExperiences />} />
         <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>
