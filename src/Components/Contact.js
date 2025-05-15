@@ -40,6 +40,10 @@ const Contact = () => {
           <p><b>Mon-Fri:</b> 9:00 AM - 6:00 PM<br></br><br></br><b>Sat-Sun:</b> 10:00 AM - 5:00 PM<br></br><br></br><b>Sunday: closed</b></p>
         </div>
       </div>
+      <div className="google-form-wrapper">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScRqyskfOxxPM3hligpK_XFyQKNwJ3d5OCZTbuh43sthNfICw/viewform?embedded=true"
+          width="640" height="1618" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      </div>
     </div>
   );
 };
