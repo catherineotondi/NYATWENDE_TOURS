@@ -40,9 +40,16 @@ const Contact = () => {
           <p><b>Mon-Fri:</b> 9:00 AM - 6:00 PM<br></br><br></br><b>Sat-Sun:</b> 10:00 AM - 5:00 PM<br></br><br></br><b>Sunday: closed</b></p>
         </div>
       </div>
-      <div className="google-form-wrapper">
+      <div className="formcontact-container">
+      <h1>Contact Us</h1>
+      <p>We'd love to hear from you. Please fill out the form below:</p>
+
+      <div className="google-form-container">
       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfgalSFiGQb82Ilqi4Gk1_1Ny1FiobrW19IdQCvWjPt9aQcMA/viewform?embedded=true" width="640" height="1551" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
       </div>
+    </div>
+      
     </div>
   );
 };
