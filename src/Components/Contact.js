@@ -41,8 +41,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="google-form-wrapper">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScRqyskfOxxPM3hligpK_XFyQKNwJ3d5OCZTbuh43sthNfICw/viewform?embedded=true"
-          width="640" height="1618" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfgalSFiGQb82Ilqi4Gk1_1Ny1FiobrW19IdQCvWjPt9aQcMA/viewform?embedded=true" width="640" height="1551" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       </div>
     </div>
   );
